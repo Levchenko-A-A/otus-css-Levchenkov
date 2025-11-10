@@ -1,0 +1,5 @@
+@import './font.css';
+
+h1 {
+    font-family: 'Playfair Display Bold';
+}
