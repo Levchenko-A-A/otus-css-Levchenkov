@@ -5,13 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 
 <body>
     <header>
         <h1>Mod</h1>
-        <nav>
+        <nav class="nav-list">
             <ul>
                 <li><a href="#Biography">Biography</a></li>
                 <li><a href="#Designers">Designers</a></li>
@@ -26,8 +29,8 @@
                 <img src="img\inside-weather-Uxqlfigh6oE-unsplash.jpg" alt="Back Mod Studio">
             </figure>
             <div>
-                <p class="Pd-fonts-Medium500">Mod Studio</p>
-                <p class="hero-section-Rob"><strong>Modern Web Studio</strong></p>
+                <p class="hero-subtitle">Mod Studio</p>
+                <p class="hero-title"><strong>Modern Web Studio</strong></p>
             </div>
         </section>
 
@@ -38,8 +41,9 @@
                     <img src="img\jared-weiss-P3cB0ynqYBw-unsplash.jpg" alt="foto Katya Mils">
                 </figure>
                 <div>
-                    <p class="Pd-fonts-Medium500">Katya<br>Mills</p>
-                    <p class="Rob-fonts-Mediun-18">Art Director<br>Scenography / Styling / Creative Photography / Design</p>
+                    <p class="biography-name">Katya<br>Mills</p>
+                    <p class="biography-role">Art Director<br>Scenography / Styling / Creative Photography / Design
+                    </p>
                     <blockquote>“The more I deal with the work<br>as something that is my own,<br>as something that
                         is personal,<br>the more successful it is.”</blockquote>
                 </div>
@@ -47,33 +51,33 @@
         </section>
         <section id="Designers">
             <h2><strong>Designers</strong></h2>
-            <div class="fonts-section-designers">
+            <div>
                 <div>
                     <figure>
                         <img src="img\spurwing-agency-r6LceZ3ckpM-unsplash.jpg" alt="Foto Jess Wonder">
                     </figure>
-                    <p><strong>Jess Wonder<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
+                    <p class="desiigner-card-info"><strong>Jess Wonder<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
                         Strategy / Marketing</p>
                 </div>
                 <div>
                     <figure>
                         <img src="img\stil-P1jQzyvqfns-unsplash.jpg" alt="Foto Kameron Clein">
                     </figure>
-                    <p><strong>Kameron Clein<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
+                    <p class="desiigner-card-info"><strong>Kameron Clein<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
                         Strategy / Marketing</p>
                 </div>
                 <div>
                     <figure>
                         <img src="img\stil-_mvSe9q8_n4-unsplash.jpg" alt="Foto Louisse Red">
                     </figure>
-                    <p><strong>Louisse Red<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
+                    <p class="desiigner-card-info"><strong>Louisse Red<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
                         Strategy / Marketing</p>
                 </div>
                 <div>
                     <figure>
                         <img src="img\stil-P1jQzyvqfns-unsplash.jpg" alt="Foto Kameron Clein">
                     </figure>
-                    <p><strong>Kameron Clein<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
+                    <p class="desiigner-card-info"><strong>Kameron Clein<br>From/</strong> Be more flower<br><strong>Skills/</strong> Design
                         Strategy / Marketing</p>
                 </div>
             </div>
@@ -81,16 +85,17 @@
         <section id="Testimonials">
             <h2><strong>Testimonials</strong></h2>
             <div>
-                <div class="fonts-section-designers">
-                    <a href="www.whitepapers.com"><strong>Website</strong> www.whitepapers.com</a>
-                    <a href="www.whitepapers.com"><strong>Creativety</strong> www.whitepapers.com</a>
-                    <a href="www.whitepapers.com"><strong>Creativety</strong> www.whitepapers.com</a>
+                <div>
+                    <a href="www.whitepapers.com" class="testimonials-link"><strong>Website</strong> www.whitepapers.com</a>
+                    <a href="www.whitepapers.com" class="testimonials-link"><strong>Creativety</strong> www.whitepapers.com</a>
+                    <a href="www.whitepapers.com" class="testimonials-link"><strong>Creativety</strong> www.whitepapers.com</a>
                 </div>
                 <figure>
                     <img src="img\keghan-crossland-ZZxmc66SjfM-unsplash.jpg" alt="Image for Testimanials">
                 </figure>
                 <div>
-                    <p class="fonts-section-testimonials-bitter">I just really<br>want to do<br>good work<br>and work with<br>some great<br>people,
+                    <p class="testimonials-text">I just really<br>want to do<br>good work<br>and work
+                        with<br>some great<br>people,
                         people<br>who challange<br>me.</p>
                 </div>
                 <figure>
@@ -108,8 +113,8 @@
                     <img src="img\avery-klein-JaXs8Tk5Iww-unsplash.jpg" alt="Image for Strong-point">
                 </figure>
                 <div>
-                    <h3 class="Pd-fonts-Medium500">Strengths</h3>
-                    <ul class="bitter-regular-34">
+                    <h2>Strengths</h2>
+                    <ul class="strengths-list">
                         <li>Interiors</li>
                         <li>Outdoors</li>
                         <li>Portraits</li>
@@ -131,16 +136,16 @@
             </div>
         </section>
     </main>
-    <footer class="fonts-section-designers">
+    <footer>
         <div>
-            <a href="tel:+79211234567">+7 921 123-45-67</a>
-            <a href="mailto:info@modstudio.com">mailto:info@modstudio.com</a>
+            <a href="tel:+79211234567" class="footer-contacts">+7 921 123-45-67</a>
+            <a href="mailto:info@modstudio.com" class="footer-contacts">mailto:info@modstudio.com</a>
         </div>
         <div>
-            <p>A product of MOD</p>
+            <p class="footer-text">A product of <strong>MOD</strong></p>
         </div>
         <div>
-            <p>&copy; 2023 Mod Media. All rights reserved</p>
+            <p class="footer-text">&copy; 2023 Mod Media. All rights reserved</p>
         </div>
     </footer>
 </body>

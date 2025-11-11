@@ -1,7 +1,12 @@
 @import './font.css';
 
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: normal;
+}
 h1 {
-    font-family: 'Playfair Display';
+    font-family: "Playfair Display";
     font-weight: 600;
     font-size: 86px;
     
@@ -23,42 +28,64 @@ blockquote {
     font-size: 26px;
 }
 
-nav {
+.nav-list {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 24px;
 }
 
-.Pd-fonts-Medium500 {
+.hero-subtitle {
     font-family: 'Playfair Display';
     font-weight: 500;
     font-size: 86px;
     line-height: 120%;
 }
 
-.hero-section-Rob {
+.hero-title {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
 }
 
-.Rob-fonts-Mediun-18 {
+.biography-name {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 86px;
+}
+
+.biography-role {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
 }
 
-.fonts-section-designers {
+.desiigner-card-info {
     font-family: 'Roboto Regular';
     font-size: 16px;
 }
 
-.fonts-section-testimonials-bitter {
+.testimonials-link {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+}
+
+.testimonials-text {
     font-family: 'Bitter-Regular';
     font-size: 32px;
 }
 
-.bitter-regular-34 {
+.strengths-list {
     font-family: 'Bitter-Regular';
     font-size: 32px;
+}
+
+.footer-contacts {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-text {
+    font-family: 'Roboto Regular';
+    font-size: 16;
 }
