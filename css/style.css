@@ -1,5 +1,64 @@
 @import './font.css';
 
 h1 {
-    font-family: 'Roboto-Bold';
+    font-family: 'Playfair Display';
+    font-weight: 600;
+    font-size: 86px;
+    
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+blockquote {
+    font-family: 'Bitter-Regular';
+    font-size: 26px;
+}
+
+nav {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.Pd-fonts-Medium500 {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 120%;
+}
+
+.hero-section-Rob {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.Rob-fonts-Mediun-18 {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.fonts-section-designers {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+}
+
+.fonts-section-testimonials-bitter {
+    font-family: 'Bitter-Regular';
+    font-size: 32px;
+}
+
+.bitter-regular-34 {
+    font-family: 'Bitter-Regular';
+    font-size: 32px;
 }
