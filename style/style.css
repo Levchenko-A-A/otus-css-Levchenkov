@@ -1,0 +1,91 @@
+@import './font.css';
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: normal;
+}
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 86px;
+    
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+blockquote {
+    font-family: 'Bitter-Regular';
+    font-size: 26px;
+}
+
+.nav-list {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.hero-subtitle {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 120%;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.biography-name {
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-size: 86px;
+}
+
+.biography-role {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.desiigner-card-info {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+}
+
+.testimonials-link {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+}
+
+.testimonials-text {
+    font-family: 'Bitter-Regular';
+    font-size: 32px;
+}
+
+.strengths-list {
+    font-family: 'Bitter-Regular';
+    font-size: 32px;
+}
+
+.footer-contacts {
+    font-family: 'Roboto Regular';
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-text {
+    font-family: 'Roboto Regular';
+    font-size: 16;
+}
