@@ -1,37 +1,58 @@
 @import './font.css';
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: normal;
+    min-width: 1440px;
 }
-h1 {
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-title {
     font-family: "Playfair Display";
     font-weight: 600;
     font-size: 86px;
-    
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 24px;
-}
+/* .header-nav {
+} */
 
-ul {
+.header-nav-list {
     list-style-type: none;
     overflow: hidden;
-}
-
-blockquote {
-    font-family: 'Bitter-Regular';
-    font-size: 26px;
-}
-
-.nav-list {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 24px;
+    display: flex;
+    gap: 60px;
+}
+
+.hero {
+    display: flex;
+    background: #ded4ca;
+    justify-content: center;
+    align-items: center;
+    min-height: 630px;
+}
+.hero-content {
+    display: flex;
+    background: white;
+    min-height: 360px;
+    min-width: 630px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .hero-subtitle {
@@ -45,6 +66,23 @@ blockquote {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 86px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+blockquote {
+    font-family: 'Bitter-Regular';
+    font-size: 26px;
 }
 
 .biography-name {
@@ -89,3 +127,4 @@ blockquote {
     font-family: 'Roboto Regular';
     font-size: 16px;
 }
+
