@@ -9,7 +9,9 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: normal;
-    min-width: 1440px;
+    max-width: 1440px;
+    min-width: 880px;
+    margin: 0 auto;
 }
 
 .header {
@@ -117,14 +119,31 @@ blockquote {
     font-size: 32px;
 }
 
+.footer {
+    min-height: 168px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.footer-contacts-item {
     font-family: 'Roboto Regular';
     font-size: 16px;
     line-height: 26px;
+    color: white;
 }
 
 .footer-text {
     font-family: 'Roboto Regular';
     font-size: 16px;
+    padding: 0 20px;
 }
 
