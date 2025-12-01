@@ -27,9 +27,6 @@ body {
     font-size: 86px;
 }
 
-/* .header-nav {
-} */
-
 .header-nav-list {
     list-style-type: none;
     overflow: hidden;
@@ -39,10 +36,26 @@ body {
     display: flex;
     gap: 60px;
 }
+.header-nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-nav-list a:hover {
+    color: black;
+}
+.header-nav-list a:active {
+    color: black;
+}
+.header-nav-list a:visited {
+    color: black;
+}
 
 .hero {
+    background-image: url('../img/inside-weather-Uxqlfigh6oE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
-    background: #ded4ca;
     justify-content: center;
     align-items: center;
     min-height: 630px;
@@ -51,10 +64,11 @@ body {
     display: flex;
     background: white;
     min-height: 360px;
-    min-width: 630px;
+    min-width: 690px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 14px;
 }
 
 .hero-subtitle {
