@@ -9,8 +9,6 @@ body {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: normal;
-    max-width: 1440px;
-    min-width: 880px;
     margin: 0 auto;
 }
 
@@ -27,6 +25,13 @@ body {
     font-size: 86px;
 }
 
+.header-nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
 .header-nav-list {
     list-style-type: none;
     overflow: hidden;
@@ -34,6 +39,7 @@ body {
     font-weight: 500;
     font-size: 24px;
     display: flex;
+    align-items: center;
     gap: 60px;
 }
 .header-nav-list a {
@@ -48,6 +54,16 @@ body {
 }
 .header-nav-list a:visited {
     color: black;
+}
+.header-modal-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    color: transparent;
 }
 
 .hero {
