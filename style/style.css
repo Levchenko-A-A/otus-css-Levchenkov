@@ -1,37 +1,90 @@
 @import './font.css';
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto';
     font-size: 16px;
     line-height: normal;
+    margin: 0 auto;
 }
-h1 {
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.header-title {
     font-family: "Playfair Display";
     font-weight: 600;
     font-size: 86px;
-    
 }
 
-h2 {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 24px;
+.header-nav-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
-ul {
+.header-nav-list {
     list-style-type: none;
     overflow: hidden;
-}
-
-blockquote {
-    font-family: 'Bitter-Regular';
-    font-size: 26px;
-}
-
-.nav-list {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.header-nav-list a {
+    text-decoration: none;
+    color: inherit;
+}
+.header-nav-list a:hover {
+    color: black;
+}
+.header-nav-list a:active {
+    color: black;
+}
+.header-nav-list a:visited {
+    color: black;
+}
+.header-modal-btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    color: transparent;
+}
+
+.hero {
+    background-image: url('../img/inside-weather-Uxqlfigh6oE-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 630px;
+}
+.hero-content {
+    display: flex;
+    background: white;
+    min-height: 360px;
+    min-width: 690px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
 }
 
 .hero-subtitle {
@@ -45,6 +98,23 @@ blockquote {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 20px;
+}
+
+h1 {
+    font-family: "Playfair Display";
+    font-weight: 600;
+    font-size: 86px;
+}
+
+h2 {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 24px;
+}
+
+blockquote {
+    font-family: 'Bitter-Regular';
+    font-size: 26px;
 }
 
 .biography-name {
@@ -79,13 +149,31 @@ blockquote {
     font-size: 32px;
 }
 
+.footer {
+    min-height: 168px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+}
+
+.footer-contacts-item {
     font-family: 'Roboto Regular';
     font-size: 16px;
     line-height: 26px;
+    color: white;
 }
 
 .footer-text {
     font-family: 'Roboto Regular';
     font-size: 16px;
+    padding: 0 20px;
 }
+
