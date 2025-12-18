@@ -10,6 +10,7 @@ body {
     font-size: 16px;
     line-height: normal;
     margin: 0 auto;
+    /* max-width: 1440px; */
 }
 
 .header {
@@ -112,9 +113,34 @@ h2 {
     font-size: 24px;
 }
 
-blockquote {
-    font-family: 'Bitter-Regular';
-    font-size: 26px;
+.biography {
+    padding: 150px 137px;
+    min-height: 840px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.biography-img {
+    /* padding: 0; */
+    width: 49%;
+    height: auto;
+    object-fit: cover;
+}
+
+.biography-content {
+    width: 39%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.biography-heading {
+    transform: rotate(-90deg);
+    /* width: 10%; */
+}
+
+.biography-info {
+        
 }
 
 .biography-name {
@@ -127,6 +153,11 @@ blockquote {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
+}
+
+blockquote {
+    font-family: 'Bitter-Regular';
+    font-size: 26px;
 }
 
 .desiigner-card-info {
