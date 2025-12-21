@@ -141,7 +141,7 @@ h2 {
 .biography-content {
     width: 39%;
     display: flex;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .biography-info {
@@ -156,18 +156,20 @@ h2 {
     font-family: 'Playfair Display';
     font-weight: 500;
     font-size: 86px;
-    background-color: #1134a8;
+    /* background-color: #1134a8; */
 }
 
 .biography-role {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
-    background-color: #fff;
+    /* background-color: #fff; */
 }
 .biography-quuote-section {
     display: flex;
     flex-direction: column;
+    position: relative;
+    padding-top: 15px;
 }
 
 .black-rectangle {
@@ -182,7 +184,7 @@ h2 {
 .biography-blockquote {
     font-family: 'Bitter-Regular';
     font-size: 26px;
-    background-color: #ec8e11;
+    /* background-color: #ec8e11; */
 }
 
 .desiigner-card-info {
