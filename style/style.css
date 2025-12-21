@@ -43,19 +43,24 @@ body {
     align-items: center;
     gap: 60px;
 }
+
 .header-nav-list a {
     text-decoration: none;
     color: inherit;
 }
+
 .header-nav-list a:hover {
     color: black;
 }
+
 .header-nav-list a:active {
     color: black;
 }
+
 .header-nav-list a:visited {
     color: black;
 }
+
 .header-modal-btn {
     background: transparent;
     border: none;
@@ -77,6 +82,7 @@ body {
     align-items: center;
     min-height: 630px;
 }
+
 .hero-content {
     display: flex;
     background: white;
@@ -117,47 +123,69 @@ h2 {
     padding: 150px 137px;
     min-height: 840px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    margin: 0 auto;
 }
 
 .biography-img {
-    /* padding: 0; */
     width: 49%;
     height: auto;
     object-fit: cover;
 }
 
+.biography-title {
+    background-color: grey;
+
+}
+
+.biography-title-text {
+    transform: rotate(-90deg);
+}
+
 .biography-content {
     width: 39%;
     display: flex;
-    justify-content: space-between;
-}
-
-.biography-heading {
-    transform: rotate(-90deg);
-    /* width: 10%; */
+    background-color: green;
 }
 
 .biography-info {
-        
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 }
 
 .biography-name {
     font-family: 'Playfair Display';
     font-weight: 500;
     font-size: 86px;
+    background-color: #1134a8;
 }
 
 .biography-role {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
+    background-color: #fff;
+}
+.biography-quuote-section {
+    display: flex;
+    flex-direction: column;
 }
 
-blockquote {
+.black-rectangle {
+    width: 20px;
+    height: 6px;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.biography-blockquote {
     font-family: 'Bitter-Regular';
     font-size: 26px;
+    background-color: #ec8e11;
 }
 
 .desiigner-card-info {
@@ -207,4 +235,3 @@ blockquote {
     font-size: 16px;
     padding: 0 20px;
 }
-
