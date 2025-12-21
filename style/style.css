@@ -132,13 +132,10 @@ h2 {
     object-fit: cover;
 }
 
-.biography-title {
-    background-color: grey;
-
-}
-
 .biography-title-text {
-    transform: rotate(-90deg);
+    margin: 0 25px;
+    transform: rotate(-90deg) translate(-100%);
+    transform-origin: left top;
 }
 
 .biography-content {
