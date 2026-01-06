@@ -41,7 +41,7 @@ body {
     font-size: 24px;
     display: flex;
     align-items: center;
-    gap: 54px;
+    gap: 64px;
 }
 
 .header-nav-list a {
@@ -113,11 +113,11 @@ h1 {
     font-size: 86px;
 }
 
-h2 {
+/* h2 {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 24px;
-}
+} */
 
 .biography {
     padding: 150px 137px;
@@ -166,7 +166,7 @@ h2 {
     font-family: 'Roboto';
     font-weight: 500;
     font-size: 18px;
-    letter-spacing: 0.0002em;
+    letter-spacing: 0.045em;
     line-height: 1.15em;
 }
 .biography-quuote-section {
@@ -192,9 +192,49 @@ h2 {
     word-spacing: -0.13em;
 }
 
-.desiigner-card-info {
+.designers {
+    padding: 0px 20px 20px;
+}
+
+.designers-title {
+    font-family: 'Roboto Regular';
+    font-weight: 700;
+    font-size: 24px;
+    padding-bottom: 28px;
+    padding-left: 120px;
+}
+.designers-list {
+    display: grid;
+    grid-template-columns: 572px repeat(3, 335px);
+    gap: 22px;
+    overflow-x: auto;
+    align-items: end;;
+}
+
+.designer-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.designer-card-text {
     font-family: 'Roboto Regular';
     font-size: 16px;
+    padding: 22px 0 0 0;
+}
+
+.designer-card-text p {
+    margin: 0;
+}
+
+.text-padding {
+    padding-left: 240px;
+}
+
+.designer-card-text .name {
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0em;
 }
 
 .testimonials-link {
